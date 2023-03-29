@@ -4,8 +4,8 @@
   background-repeat: no-repeat; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: stretch;
   padding: 1rem;
   border-width: 0.4rem;
   border-style: solid;
@@ -46,21 +46,20 @@
 }
 
 .sidebar {
-  position: relative;
-  display: flex;
+  box-sizing: border-box;
   padding: 1rem; 
   background-color: rgba(127, 255, 212, 0.129);
 }
 
 .inside_sidebar{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(25%, auto));
+
 }
 
 .content {
+  width: 100%;
   background-color: antiquewhite;
-
 }
 
 .grid {

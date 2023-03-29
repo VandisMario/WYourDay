@@ -1,4 +1,4 @@
-This is a Tauri Project made to keep Track of your Ws 💯 everyday. 
+This is a Tauri Project made to keep Track of your W´s 💯 everyday. 
 
 
 ## Getting Started

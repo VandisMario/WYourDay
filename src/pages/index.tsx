@@ -17,30 +17,32 @@ export default function Home() {
       <main className={styles.main}>
 
         <div className={styles.sidebar}>
-          <div className={styles.inside_sidebar}>
+          <div>
             <a>
               <p>Button 1</p>
             </a>
-
+          </div>
+          <div>
             <a>
               <p>Button 2</p>
             </a>
-
+          </div>
+          <div>
             <a>
               <p>Button 3</p>
             </a>
-            
+          </div>
+          <div>
             <a>
               <p>Button 4</p>
             </a>
-
           </div>
         </div>
 
 
         <div className={styles.content}>
 
-
+{/* 
           <div className={styles.description}>
             <div>
               This App was made in place for the bad WPF Bill Gates conspiracy
@@ -48,6 +50,33 @@ export default function Home() {
             <p>
               By Joe Biden
             </p>
+          </div> */}
+
+          <div className={styles.tableOC}>
+
+            <p>
+              Monday
+            </p>
+            <p>
+              Tuesday
+            </p>
+            <p>
+              Wednesday
+            </p>
+            <p>
+              Thursday
+            </p>
+            <p>
+              Friday
+            </p>
+            <p>
+              Saturday
+            </p>
+            <p>
+              Sunday
+            </p>
+
+
           </div>
 
 

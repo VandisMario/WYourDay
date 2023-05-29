@@ -50,9 +50,27 @@
   display: grid;
   min-width: 6rem;
   grid-template-columns: repeat(1, minmax(100%, auto));
-  padding: 1rem;
-  background-color: rgba(127, 255, 212, 0.129);
+  padding: 0.5rem;
+  background-color: rgba(127, 163, 255, 0.5);
   align-content: space-evenly;
+}
+
+.sidebar > *{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  height: 50px;
+}
+
+.sidebar > * *{
+  flex: 0 0 80%;
+}
+
+.sidebar > *:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+  transition: 0.8s;
+
 }
 
 .tableOC {
@@ -74,6 +92,14 @@
 
 }
 
+.tableOC > * p{
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  user-select: none;
+  align-self: center;
+}
+
 /* .inside_sidebar{
   display: grid;
   grid-template-columns: repeat(1, minmax(25%, auto));
@@ -82,7 +108,7 @@
 
 .content {
   width: 100%;
-  background-color: antiquewhite;
+  background-color: rgba(141, 141, 141, 0.5);
 }
 
 .grid {
